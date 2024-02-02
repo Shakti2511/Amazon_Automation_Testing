@@ -21,6 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.com/')
 
+WebUI.maximizeWindow()
+
 WebUI.click(findTestObject('Object Repository/AmazonPages_OR/Amazon_Login_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in'))
 
 WebUI.setText(findTestObject('Object Repository/AmazonPages_OR/Amazon_Login_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email'), 
