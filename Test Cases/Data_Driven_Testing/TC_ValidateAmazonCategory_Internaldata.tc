@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_ValidateAmazonCategory_Internaldata</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3fb520a1-5a03-4efe-9626-a6cccaaaadf0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dd33bf98-e54c-4050-abb1-41a9f3ba04cc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3be29a1c-c050-4a5d-a2a4-ce5212589f65</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>dd33bf98-e54c-4050-abb1-41a9f3ba04cc</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3be29a1c-c050-4a5d-a2a4-ce5212589f65</id>
+      <masked>false</masked>
+      <name>item</name>
+   </variable>
+</TestCaseEntity>

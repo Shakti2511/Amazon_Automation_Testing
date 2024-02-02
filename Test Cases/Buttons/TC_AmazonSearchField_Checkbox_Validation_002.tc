@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_AmazonSearchField_Checkbox_Validation_002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>58c89833-313a-4c21-ad28-71bd31303471</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a8d581e5-fe27-42e0-b80d-ed4d5e8c50ab</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9d56df8f-70af-4a4a-b4aa-c075bd2a8ad1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>a8d581e5-fe27-42e0-b80d-ed4d5e8c50ab</id>
+      <masked>false</masked>
+      <name>checked</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>9d56df8f-70af-4a4a-b4aa-c075bd2a8ad1</id>
+      <masked>false</masked>
+      <name>notchecked</name>
+   </variable>
+</TestCaseEntity>
