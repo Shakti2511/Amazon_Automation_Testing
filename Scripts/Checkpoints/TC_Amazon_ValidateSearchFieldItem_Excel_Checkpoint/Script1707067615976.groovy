@@ -17,5 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.amazon.com/')
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/AmazonPages_OR/Amazon_Pages_SearchItems_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'), 
+    category, true)
+
+WebUI.setText(findTestObject('Object Repository/AmazonPages_OR/Amazon_Pages_SearchItems_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'), 
+    item)
+
 WebUI.verifyCheckpoint(findCheckpoint('Checkpoints/AmazonCategory_Excel_Checkpoint'), false)
+
+WebUI.click(findTestObject('Object Repository/AmazonPages_OR/Amazon_Pages_SearchItems_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button'))
+
+WebUI.closeBrowser()
 

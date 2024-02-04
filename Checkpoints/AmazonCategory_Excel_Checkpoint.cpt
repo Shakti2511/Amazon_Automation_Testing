@@ -7,7 +7,7 @@
       <is-from-test-data>true</is-from-test-data>
       <source-url>Data Files/Data_Driven_TestData/Amazon_TestData_Excel_Category</source-url>
    </source-info>
-   <taken-date>2024-01-30T19:01:16.024</taken-date>
+   <taken-date>2024-02-04T22:58:03.532</taken-date>
    <column-names>
       <column-name>category</column-name>
       <column-name>item</column-name>
@@ -26,21 +26,21 @@
   [
     {
       "value": "Electronics",
-      "checked": true
+      "checked": false
     },
     {
       "value": "extension board",
-      "checked": true
+      "checked": false
     }
   ],
   [
     {
       "value": "Baby",
-      "checked": true
+      "checked": false
     },
     {
       "value": "walkers",
-      "checked": true
+      "checked": false
     }
   ]
 ]]]></checkpoint-data>
