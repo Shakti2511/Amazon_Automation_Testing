@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>default</name>
+   <name>Amazon_GlobalVariables</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.amazon.com/'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'8902526748'</initValue>

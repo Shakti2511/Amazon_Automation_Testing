@@ -15,7 +15,7 @@
       <guid>26a4429e-d72d-4d2f-8cb8-36b4723ce765</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Amazon/TC_Amazon_Login_001</testCaseId>
+      <testCaseId>Test Cases/Amazon/TC_Amazon_Login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_Amazon_ValidateSearchFieldItem_002</name>
+   <name>TC_Amazon_ValidateSearchFieldItem</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>bbae7df6-3b2a-4054-a2a9-0ac0d8f6ff3e</testCaseGuid>
