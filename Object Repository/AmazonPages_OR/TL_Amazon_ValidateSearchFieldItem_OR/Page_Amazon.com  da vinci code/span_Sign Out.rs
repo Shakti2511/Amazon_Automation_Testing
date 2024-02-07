@@ -6,12 +6,12 @@
    <elementGuidId>ade5fa5f-9002-46af-8e72-79c88c965afa</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#nav-item-signout > span.nav-text</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Music Library'])[1]/following::span[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='nav-item-signout']/span</value>
+         <key>CSS</key>
+         <value>#nav-item-signout > span.nav-text</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
