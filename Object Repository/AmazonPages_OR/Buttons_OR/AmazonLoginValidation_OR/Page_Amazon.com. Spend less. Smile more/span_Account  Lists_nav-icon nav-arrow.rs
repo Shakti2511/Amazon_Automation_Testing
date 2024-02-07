@@ -6,12 +6,11 @@
    <elementGuidId>731181ce-76c7-43f9-9994-77306a2e52b7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[@id='nav-link-accountList']/span/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

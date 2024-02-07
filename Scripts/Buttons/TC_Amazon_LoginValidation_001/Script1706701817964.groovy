@@ -21,27 +21,27 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.com/')
 
-WebUI.click(findTestObject('Object Repository/Buttons_OR/AmazonLoginValidation_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in'))
+WebUI.click(findTestObject('Object Repository/AmazonPages_OR/Buttons_OR/AmazonLoginValidation_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in'))
 
-WebUI.setText(findTestObject('Object Repository/Buttons_OR/AmazonLoginValidation_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email'), 
+WebUI.setText(findTestObject('Object Repository/AmazonPages_OR/Buttons_OR/AmazonLoginValidation_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email'), 
     '8902526748')
 
-WebUI.click(findTestObject('Object Repository/Buttons_OR/AmazonLoginValidation_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402'))
+WebUI.click(findTestObject('Object Repository/AmazonPages_OR/Buttons_OR/AmazonLoginValidation_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Buttons_OR/AmazonLoginValidation_OR/Page_Amazon Sign-In/input_Forgot your password_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/AmazonPages_OR/Buttons_OR/AmazonLoginValidation_OR/Page_Amazon Sign-In/input_Forgot your password_password'), 
     'RfES2L809yyT69vCWLoDzQ==')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Buttons_OR/AmazonLoginValidation_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/AmazonPages_OR/Buttons_OR/AmazonLoginValidation_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit'), 
     10)
 
-WebUI.click(findTestObject('Object Repository/Buttons_OR/AmazonLoginValidation_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit'))
+WebUI.click(findTestObject('Object Repository/AmazonPages_OR/Buttons_OR/AmazonLoginValidation_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit'))
 
-WebUI.mouseOver(findTestObject('Object Repository/Buttons_OR/AmazonLoginValidation_OR/Page_Amazon.com. Spend less. Smile more/span_Account  Lists_nav-icon nav-arrow'))
+WebUI.mouseOver(findTestObject('Object Repository/AmazonPages_OR/Buttons_OR/AmazonLoginValidation_OR/Page_Amazon.com. Spend less. Smile more/span_Account  Lists_nav-icon nav-arrow'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Buttons_OR/AmazonLoginValidation_OR/Page_Amazon.com. Spend less. Smile more/span_Sign Out'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/AmazonPages_OR/Buttons_OR/AmazonLoginValidation_OR/Page_Amazon.com. Spend less. Smile more/span_Sign Out'), 
     10)
 
-WebUI.click(findTestObject('Object Repository/Buttons_OR/AmazonLoginValidation_OR/Page_Amazon.com. Spend less. Smile more/span_Sign Out'))
+WebUI.click(findTestObject('Object Repository/AmazonPages_OR/Buttons_OR/AmazonLoginValidation_OR/Page_Amazon.com. Spend less. Smile more/span_Sign Out'))
 
 WebUI.closeBrowser()
 

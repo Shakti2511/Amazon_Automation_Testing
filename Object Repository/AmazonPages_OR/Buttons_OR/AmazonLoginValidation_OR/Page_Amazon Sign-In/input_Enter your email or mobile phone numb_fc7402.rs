@@ -6,12 +6,12 @@
    <elementGuidId>471463c9-2e37-472a-b23a-813e0db58e8c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.a-button-inner > #continue</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='continue']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.a-button-inner > #continue</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

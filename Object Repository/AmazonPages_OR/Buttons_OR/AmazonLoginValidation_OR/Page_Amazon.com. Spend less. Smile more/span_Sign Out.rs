@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Mystery, Thriller  Suspense</name>
+   <name>span_Sign Out</name>
    <tag></tag>
-   <elementGuidId>2e52d067-d77c-4882-aeb7-78aff7c2c100</elementGuidId>
+   <elementGuidId>7dcd2b24-8af1-4d0f-b20a-230c10f07262</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//li[@id='n/18']/span/a/span</value>
+         <value>//a[@id='nav-item-signout']/span</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>#nav-item-signout > span.nav-text</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,94 +22,94 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>17d110c9-a69d-4ed1-bc5f-7a5bda88a00b</webElementGuid>
+      <webElementGuid>2ab0edbf-26ff-47f5-b822-68f05b1bc2dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>a-size-base a-color-base</value>
-      <webElementGuid>abafa5ae-0760-4aad-a631-259e22891982</webElementGuid>
+      <value>nav-text</value>
+      <webElementGuid>251c04de-5728-4891-8597-235905eff6a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Mystery, Thriller &amp; Suspense</value>
-      <webElementGuid>eaf5606a-9ba8-44fd-8770-e0ec1a32b04d</webElementGuid>
+      <value>Sign Out</value>
+      <webElementGuid>4718734a-6d0b-4be9-ab51-372d99d2a34a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;n/18&quot;)/span[@class=&quot;a-list-item&quot;]/a[@class=&quot;a-link-normal s-navigation-item&quot;]/span[@class=&quot;a-size-base a-color-base&quot;]</value>
-      <webElementGuid>ad993784-69f4-47d2-af87-4942ad604005</webElementGuid>
+      <value>id(&quot;nav-item-signout&quot;)/span[@class=&quot;nav-text&quot;]</value>
+      <webElementGuid>7b313cb2-8d8a-4662-90c5-8a8cc8de959f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//li[@id='n/18']/span/a/span</value>
-      <webElementGuid>3edb06be-3faf-4ee8-ab34-2397c17959bc</webElementGuid>
+      <value>//a[@id='nav-item-signout']/span</value>
+      <webElementGuid>8d448160-db13-4769-9ac1-64a9d3cd3726</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Medical Books'])[1]/following::span[2]</value>
-      <webElementGuid>9790277c-2f66-407b-b23a-ab5d19c3eb64</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Switch Accounts'])[1]/following::span[1]</value>
+      <webElementGuid>3da4e8a8-9ea6-4b77-91c4-6a9e5c49dc59</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Literature &amp; Fiction'])[1]/following::span[4]</value>
-      <webElementGuid>30c238ca-dced-49a3-bc3c-afa54b462201</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Music Library'])[1]/following::span[2]</value>
+      <webElementGuid>55c70a42-b9aa-49bb-bed9-12598cfea205</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Parenting &amp; Relationships'])[1]/preceding::span[1]</value>
-      <webElementGuid>1c521704-8407-4df9-a1b0-1f9d92ee0767</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All'])[2]/preceding::span[1]</value>
+      <webElementGuid>757e5d47-5bda-4e6d-8923-8c4f92366572</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Politics &amp; Social Sciences'])[1]/preceding::span[3]</value>
-      <webElementGuid>efcbcba5-4c60-412b-8fd0-3deb7aa5f661</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Today', &quot;'&quot;, 's Deals')])[1]/preceding::span[2]</value>
+      <webElementGuid>4c3cf8db-0c3b-44ea-ab0f-256e4b0e0f29</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Mystery, Thriller &amp; Suspense']/parent::*</value>
-      <webElementGuid>747ba5bd-6b78-4fd4-8867-73cb08a4c599</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Sign Out']/parent::*</value>
+      <webElementGuid>59b38c68-c64c-441a-aae6-f323642b10ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[21]/span/a/span</value>
-      <webElementGuid>a8d12937-f98e-436b-a398-a32bfd31938c</webElementGuid>
+      <value>//a[13]/span</value>
+      <webElementGuid>0ed1540d-ff9a-4c40-9cec-3a10873d7c8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'Mystery, Thriller &amp; Suspense' or . = 'Mystery, Thriller &amp; Suspense')]</value>
-      <webElementGuid>dc19dd1a-9c27-4631-b60f-57b0d3aee34c</webElementGuid>
+      <value>//span[(text() = 'Sign Out' or . = 'Sign Out')]</value>
+      <webElementGuid>c7034cf3-8e6f-4db0-998b-a6b0fc01cb72</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

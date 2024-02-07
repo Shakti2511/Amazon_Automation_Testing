@@ -6,12 +6,12 @@
    <elementGuidId>d63a3b9a-85e6-4b89-94cc-fc21805f4878</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#nav-link-accountList-nav-line-1</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//span[@id='nav-link-accountList-nav-line-1']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#nav-link-accountList-nav-line-1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

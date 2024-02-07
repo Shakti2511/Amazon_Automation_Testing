@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Forgot your password_password</name>
+   <name>input_Enter your password_signInSubmit</name>
    <tag></tag>
-   <elementGuidId>ce95e5dd-66e4-4ad0-9e94-4c4280dee29f</elementGuidId>
+   <elementGuidId>9404fe1e-2359-4125-956d-5d12a767ad04</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#ap_password</value>
+         <key>XPATH</key>
+         <value>//input[@id='signInSubmit']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='ap_password']</value>
+         <key>CSS</key>
+         <value>#signInSubmit</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,94 +22,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>85b85b35-7fd5-4cbf-9188-f5c9b462c9c0</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>password</value>
-      <webElementGuid>80458b70-445f-4176-a567-3be147e3a711</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
-      <type>Main</type>
-      <value>1024</value>
-      <webElementGuid>62fc82c1-607e-4a64-903d-be4bf796e3f8</webElementGuid>
+      <webElementGuid>a50bef10-cce6-4c49-b184-cc5c5fc6848a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ap_password</value>
-      <webElementGuid>dd562cd2-f4cf-4613-90b6-949e69ca9f39</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>password</value>
-      <webElementGuid>c86eea76-5017-4cb1-972e-4fd64671c0a5</webElementGuid>
+      <value>signInSubmit</value>
+      <webElementGuid>77dd40cd-e6db-4566-b4b9-f5524a74bf02</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tabindex</name>
       <type>Main</type>
-      <value>2</value>
-      <webElementGuid>f585aa9b-a3bf-4ade-867e-3c7f4215caa8</webElementGuid>
+      <value>3</value>
+      <webElementGuid>215d744f-1caa-408b-8f5f-bf662f4d9317</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>a-input-text a-span12 auth-autofocus auth-required-field</value>
-      <webElementGuid>9e88e494-fd62-4b44-868c-4fff2073398e</webElementGuid>
+      <value>a-button-input</value>
+      <webElementGuid>3e5fca4b-ce14-4eb2-83db-d193c55b3091</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>2354ff0b-5a4c-41a4-9428-57c0cdd23eb8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-labelledby</name>
+      <type>Main</type>
+      <value>auth-signin-button-announce</value>
+      <webElementGuid>b15ef6c4-94b3-45fb-8489-c372f30392d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ap_password&quot;)</value>
-      <webElementGuid>460ce78d-3a28-4c0f-80c0-3bb2db7f0915</webElementGuid>
+      <value>id(&quot;signInSubmit&quot;)</value>
+      <webElementGuid>491a5d65-2409-4375-bd51-631aa7ea90cc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='ap_password']</value>
-      <webElementGuid>e3dfe6a4-07af-4ee2-856a-390d0c091b2e</webElementGuid>
+      <value>//input[@id='signInSubmit']</value>
+      <webElementGuid>e0a456fb-f0c0-4229-b699-17d85093181b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='authportal-main-section']/div[2]/div/div[2]/div/form/div/div/input</value>
-      <webElementGuid>14392500-2d15-4f61-859d-ebe59f3592b8</webElementGuid>
+      <value>//span[@id='auth-signin-button']/span/input</value>
+      <webElementGuid>37511619-c4f0-4180-ad2a-e744d165e6af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/input</value>
-      <webElementGuid>3fbeabdb-d4f6-4bd4-a664-ec5b3487ce82</webElementGuid>
+      <value>//span/input</value>
+      <webElementGuid>08db58c0-75f5-43c5-93f7-3da66bbbb2e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'password' and @id = 'ap_password' and @name = 'password']</value>
-      <webElementGuid>a6a4ed18-e5b8-4998-adff-626271e49c4b</webElementGuid>
+      <value>//input[@id = 'signInSubmit' and @type = 'submit']</value>
+      <webElementGuid>e9c0474f-1d32-4b8c-9064-b1c2cf4e4aff</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

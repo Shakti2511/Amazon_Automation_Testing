@@ -21,21 +21,21 @@ WebUI.openBrowser('https://www.amazon.com')
 
 WebUI.maximizeWindow()
 
-WebUI.selectOptionByLabel(findTestObject('Buttons_OR/AmazonSearchFieldValidate_OR/Page_Amazon.com. Spend less. Smile more/category'), 
+WebUI.selectOptionByLabel(findTestObject('AmazonPages_OR/Buttons_OR/AmazonSearchFieldValidate_OR/Page_Amazon.com. Spend less. Smile more/category'), 
     'Books', false)
 
-WebUI.setText(findTestObject('Buttons_OR/AmazonSearchFieldValidate_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'), 
+WebUI.setText(findTestObject('AmazonPages_OR/Buttons_OR/AmazonSearchFieldValidate_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'), 
     'da vinci code')
 
-WebUI.click(findTestObject('Buttons_OR/AmazonSearchFieldValidate_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button'))
+WebUI.click(findTestObject('AmazonPages_OR/Buttons_OR/AmazonSearchFieldValidate_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button'))
 
-WebUI.click(findTestObject('Buttons_OR/AmazonSearchFieldValidate_OR/Page_Amazon.com  da vinci code/span_Mystery, Thriller  Suspense'))
+WebUI.click(findTestObject('AmazonPages_OR/Buttons_OR/AmazonSearchFieldValidate_OR/Page_Amazon.com  da vinci code/span_Mystery, Thriller  Suspense'))
 
-notchecked = WebUI.verifyElementNotChecked(findTestObject('Buttons_OR/AmazonSearchFieldValidate_OR/Page_Amazon.com  da vinci code/i_Action-packed_a-icon a-icon-checkbox'), 
+notchecked = WebUI.verifyElementNotChecked(findTestObject('AmazonPages_OR/Buttons_OR/AmazonSearchFieldValidate_OR/Page_Amazon.com  da vinci code/i_Action-packed_a-icon a-icon-checkbox'), 
     10)
 
 if (notchecked == true) {
-    WebUI.check(findTestObject('Buttons_OR/AmazonSearchFieldValidate_OR/Page_Amazon.com  da vinci code/i_Action-packed_a-icon a-icon-checkbox'))
+    WebUI.check(findTestObject('AmazonPages_OR/Buttons_OR/AmazonSearchFieldValidate_OR/Page_Amazon.com  da vinci code/i_Action-packed_a-icon a-icon-checkbox'))
 }
 
 WebUI.closeBrowser()
